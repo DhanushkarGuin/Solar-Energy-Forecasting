@@ -1,0 +1,8 @@
+|n_estimators| Max Depth | Max Leaf Nodes | RMSE | R2     |
+|------------| ----------| ---------------| -----| -------|
+|100         | None      | None           | 2043 | 50.94% |  -- Default
+|300         | None      | None           | 2040 | 51.11% |
+|100         | 3         | None           | 1995 | 53.22% |
+|100         | 7         | None           | 1833 | 60.51% |  -- Increasing max depth further 7 is worsening the metrics
+|100         | 7         | 30             | 1845 | 59.99% |
+|500         | 7         | None           | 1833 | 60.53% |  
