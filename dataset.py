@@ -28,4 +28,4 @@ solar_ds['TOTAL MINUTES PASS'] = solar_ds['MINUTES'] + solar_ds['HOURS']*60
 # print(solar_ds.isnull().sum())
 # No missing values
 
-solar_ds.to_csv('dataset.csv')
+solar_ds.to_csv('dataset.csv', index=False)
