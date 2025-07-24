@@ -1,0 +1,4 @@
+|eta  |Max Depth|RMSE | R2     |
+|-----|---------|-----| -------|
+|0.04 |None     |1837 |60.36%  |
+|0.04 |5        |1836 |60.37%  | -- I did try other parameters but they all gave lower than 60s all around 55-59s
