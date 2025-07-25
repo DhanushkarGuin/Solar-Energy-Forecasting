@@ -27,5 +27,5 @@ y_pred = pipeline.predict(X_test)
 
 ## Metrics Evaluation
 from sklearn.metrics import root_mean_squared_error,r2_score
-print('RMSE:', root_mean_squared_error(y_test,y_pred)) # 211
-print('R2:', r2_score(y_test,y_pred)) # 67.42%
+print('RMSE:', root_mean_squared_error(y_test,y_pred)) # 208
+print('R2:', r2_score(y_test,y_pred)) # 68.28%
