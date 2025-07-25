@@ -1,0 +1,5 @@
+|n_neighbors | Weights | Leaf Size | P | RMSE | R2     |
+|------------| --------| ----------| --| -----| -------|
+|5           | uniform | 30        | 2 | 1993 | 53.31% | -- default
+|25          | uniform | 30        | 2 | 1864 | 59.15% | -- leaf size number isnt affecting the metrics
+|25          | uniform | 30        | 1 | 1863 | 59.21% | 
